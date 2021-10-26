@@ -4,13 +4,10 @@ const ObjectId = require('mongodb').ObjectId;
 const cors = require('cors');
 require('dotenv').config();
 
-//pass:932kVsHcZwWGJgrV
-//mydbuser1
 
-//r05g6iVfl5xzz9X0
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 
 //middleware
